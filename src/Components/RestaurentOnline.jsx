@@ -81,7 +81,7 @@ function RestaurentOnline() {
                         <div style={{
                             backgroundImage: `url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/hqskgt9wjjgqkj74coyw)`
                         }} className='Online-Card-img '>
-                            <div className='Online-color'><h4 className='fw-bolder' ></h4></div>
+                            <div className='Online-color' />
                         </div>
                         <h5 className='mt-3'>The Burger Junction</h5>
                         <i style={{color:"#20963a"}} className="fa-solid fa-star"></i>4.5
@@ -92,7 +92,7 @@ function RestaurentOnline() {
                         <div style={{
                             backgroundImage: `url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/56c9ab92bd79745fd152a30fa2525426)`
                         }} className='Online-Card-img '>
-                            <div className='Online-color'><h4 className='fw-bolder' ></h4></div>
+                            <div className='Online-color' />
                         </div>
                         <h5 className='mt-3'>KFC</h5>
                         <i style={{color:"#20963a"}} className="fa-solid fa-star">20% OFF UPTO ₹50</i>4.1
@@ -103,7 +103,9 @@ function RestaurentOnline() {
                         <div style={{
                             backgroundImage: `url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ly5rzyg6tzwu4idmy4i1)`
                         }} className='Online-Card-img '>
-                            <div className='Online-color'><h4 className='fw-bolder' ></h4>10% OFF UPTO ₹40</div>
+                            <div className='Online-color'>
+                                <h4 className='fw-bolder'>10% OFF UPTO ₹40</h4>
+                            </div>
                         </div>
                         <h5 className='mt-3'>Amma's Pastries</h5>
                         <i style={{color:"#20963a"}} className="fa-solid fa-star"></i>3.9
@@ -138,7 +140,7 @@ function RestaurentOnline() {
                         <div style={{
                             backgroundImage: `url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ee5f8e06b300efc07c9fe3f4df40dfc4)`
                         }} className='Online-Card-img '>
-                            <div className='Online-color'><h4 className='fw-bolder' ></h4></div>
+                            <div className='Online-color' />
                         </div>
                         <h5 className='mt-3'>Mc Donald's</h5>
                         <i style={{color:"#20963a"}} className="fa-solid fa-star"></i>4.3
@@ -184,7 +186,7 @@ function RestaurentOnline() {
                             <div style={{
                                 backgroundImage: `url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/xejp6fugbtzu08vpfqmu)`
                             }} className='Online-Card-img '>
-                                <div className='Online-color'><h4 className='fw-bolder' ></h4></div>
+                                <div className='Online-color' />
                             </div>
                             <h5 className='mt-3'>Aryaas</h5>
                             <i style={{ color: "#20963a" }} className="fa-solid fa-star"></i>4.4
