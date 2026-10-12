@@ -48,8 +48,8 @@ jobs:
         with:
           args: >
             -Dsonar.projectKey=swiggy
-      - name: Dependency security diagnostics
-        run: |
+            - name: Dependency security diagnostics
+         run: |
           npm ls react-scripts || true
           npm audit --omit=dev --audit-level=high || true
       # 6. Trivy filesystem scan
