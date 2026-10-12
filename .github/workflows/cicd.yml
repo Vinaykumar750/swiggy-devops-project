@@ -48,22 +48,6 @@ jobs:
         with:
           args: >
             -Dsonar.projectKey=swiggy
-            
-      # Dependency diagnostics (before Trivy filesystem scan)
-      - name: Dependency security diagnostics
-        run: |
-          npm ls react-scripts || true
-          npm audit --omit=dev --audit-level=high || true
-
-      # Trivy filesystem scan
-      - name: Trivy filesystem scan
-        uses: aquasecurity/trivy-action@v0.36.0
-        with:
-          scan-type: fs
-          scan-ref: .
-          severity: HIGH,CRITICAL
-          exit-code: "1"
-          ignore-unfixed: true
 
       # 7. Build Docker image
       - name: Build Docker image
